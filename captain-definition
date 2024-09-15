@@ -2,5 +2,14 @@
     "schemaVersion": 2,
     "dockerfilePath": "./Dockerfile",
     "captainVersion": "1.0",
-    "containerHttpPort": "22300"
+    "containerHttpPort": "22300",
+    "instanceCount": 1,
+    "preDeployFunction": "",
+    "serviceUpdateOverride": "",
+    "config": {
+        "http": {
+            "containerPort": 22300,
+            "hostPort": 22400
+        }
+    }
 }
